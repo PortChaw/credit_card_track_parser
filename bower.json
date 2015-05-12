@@ -1,0 +1,19 @@
+{
+  "name": "credit_card_track_parser",
+  "version": "0.0.1",
+  "homepage": "https://github.com/PortChaw/credit_card_track_parser",
+  "authors": [
+    "jpartlow"
+  ],
+  "license": "GPL",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "qunit": "~1.18.0"
+  }
+}

@@ -2,7 +2,7 @@ function pretty_print(object) {
   var debug = "{ "
   for (var property in object) {
     if (typeof object[property] != 'function') {
-      debug += property + " : " + object[property] + ", " 
+      debug += property + " : " + object[property] + ", "
     }
   }
   print(debug + "}")
